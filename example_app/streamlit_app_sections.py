@@ -1,2 +1,4 @@
 import streamlit as st
-st.title("This is app section")
+st.balloons()
+
+st.title("Welcome")

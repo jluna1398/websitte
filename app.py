@@ -7,18 +7,18 @@ import plotly.express as plotlye
 import sklearn.preprocessing as splt
 
 
-"## Declaring the pages in your app:"
+
 
 show_pages(
     [
         Page("example_app/streamlit_app_sections.py", "Home", "🏠"),
 
-        Page("example_app/example_one.py", "Data Science for Marketing", ":books:"),
+        Page("example_app/example_one.py", "Clustering"),
 
 
         # The pages appear in the order you pass them
-        Page("example_app/example_four.py", "Example Four", "📖"),
-        Page("example_app/example_two.py", "Example Two", "✏️"),
+        Page("example_app/example_four.py", "Linear Regression"),
+        Page("example_app/example_two.py", "Macroeconomics Indicators"),
 
         # Will use the default icon and name based on the filename if you don't
         # pass them
@@ -28,4 +28,5 @@ show_pages(
     ]
 )
 
-add_page_title()  # Optional method to add title and icon to current pagest
+add_page_title()
+st.sidebar.title("were")
