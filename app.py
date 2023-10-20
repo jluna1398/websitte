@@ -11,7 +11,7 @@ import sklearn.preprocessing as splt
 
 show_pages(
     [
-        Page("example_app/streamlit_app_sections.py", "Home", "🏠"),
+        Page("example_app/streamlit_app_sections.py", "Home"),
 
         Page("example_app/example_one.py", "Clustering"),
 
