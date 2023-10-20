@@ -29,4 +29,4 @@ show_pages(
 )
 
 add_page_title()
-st.sidebar.title("were")
+
