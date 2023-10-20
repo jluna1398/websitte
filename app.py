@@ -13,7 +13,7 @@ show_pages(
     [
         Page("example_app/streamlit_app_sections.py", "Home", "🏠"),
 
-        Page("example_app/example_one.py", "Example One", ":books:"),
+        Page("example_app/example_one.py", "Data Science for Marketing", ":books:"),
 
 
         # The pages appear in the order you pass them
@@ -29,4 +29,3 @@ show_pages(
 )
 
 add_page_title()  # Optional method to add title and icon to current pagest
-st.title("ASDASD")
